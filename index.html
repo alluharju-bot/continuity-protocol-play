@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#071014" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23071014'/%3E%3Cpath d='M17 18h30v7H25v14h22v7H17z' fill='%236cffe8'/%3E%3C/svg%3E" />
+    <title>Continuity Protocol — Surface Protocol</title>
+    <script type="module" crossorigin src="/continuity-protocol-play/assets/index-C2Er2d-b.js"></script>
+    <link rel="stylesheet" crossorigin href="/continuity-protocol-play/assets/index-Bzoqbrb0.css">
+  </head>
+  <body>
+    <main id="game-shell">
+      <canvas id="game-canvas" aria-label="Continuity Protocol 3D game"></canvas>
+
+      <aside id="runtime-status" class="runtime-status" data-state="loading" role="status">
+        <i aria-hidden="true"></i>
+        <strong>BUILD CP-0.4.14</strong>
+        <span id="runtime-status-text">STARTING 3D RUNTIME</span>
+        <small id="runtime-status-detail"></small>
+      </aside>
+
+      <section id="boot-screen" class="boot-screen">
+        <p class="eyebrow">SURFACE PROTOCOL // DISTRICT K-7</p>
+        <h1>CONTINUITY<br />PROTOCOL</h1>
+        <p>Recover a continuity core from the ruins. Stay unseen, shoot only when the cost is worth it.</p>
+        <button id="enter-button" type="button">LEAVE THE SHELTER</button>
+        <small>Click captures the mouse. Escape releases it.</small>
+      </section>
+
+      <div id="hud" class="hud is-hidden" aria-live="polite">
+        <header class="hud__header">
+          <div class="identity-panel">
+            <span class="eyebrow">CORA // SURFACE LINK</span>
+            <strong>DISTRICT K-7</strong>
+            <div class="health-line"><span>SUIT</span><i><b id="health-fill"></b></i><em id="health-text">100%</em></div>
+          </div>
+          <div id="threat-panel" class="power-panel threat-panel" data-level="clear">
+            <span>DRONE MESH</span>
+            <strong id="threat-status">PATROL NETWORK QUIET</strong>
+            <div class="power-meter"><i id="threat-fill"></i></div>
+            <small id="threat-readout">4/4 ACTIVE</small>
+          </div>
+        </header>
+
+        <div class="reticle" aria-hidden="true"><i></i></div>
+        <div id="hit-marker" class="hit-marker" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+        <div id="interaction-prompt" class="interaction-prompt"></div>
+
+        <aside id="system-inspector" class="system-inspector" data-state="inactive" aria-label="Focused system components">
+          <header>
+            <span id="system-kind" class="eyebrow">SYSTEM SCAN</span>
+            <i id="system-state-light" aria-hidden="true"></i>
+          </header>
+          <strong id="system-name">NO SYSTEM IN FOCUS</strong>
+          <small id="system-state">AIM AT AN INTERACTABLE ASSEMBLY</small>
+          <div class="system-inspector__divider"><span>COMPONENT INVENTORY</span></div>
+          <ol id="system-components"></ol>
+          <footer id="system-affordance">RETICLE SCAN</footer>
+        </aside>
+
+        <footer class="hud__footer">
+          <section class="objective-card">
+            <span class="eyebrow">CURRENT DIRECTIVE</span>
+            <strong id="objective-text">Recover the continuity memory core</strong>
+            <small id="objective-detail">Cross the ruined district without giving the drone mesh a clean sighting.</small>
+          </section>
+          <section class="controls-card">
+            <span><b>WASD</b> move</span>
+            <span><b>SHIFT</b> sprint</span>
+            <span><b>CTRL</b> sneak</span>
+            <span><b>RMB</b> aim</span>
+            <span><b>LMB</b> fire</span>
+            <span><b>R</b> reload</span>
+            <span><b>F</b> light</span>
+            <span><b>E</b> interact</span>
+          </section>
+        </footer>
+
+        <section class="weapon-panel">
+          <span id="reload-state">SERVICE PISTOL</span>
+          <div><strong id="magazine-count">08</strong><i>/</i><em id="reserve-count">24</em></div>
+          <small id="signature-readout">LIGHT ON // VIS 86 // NOISE 02</small>
+        </section>
+
+        <div id="message-log" class="message-log"></div>
+        <div id="mouse-hint" class="mouse-hint">CLICK TO CAPTURE MOUSE</div>
+        <div id="damage-vignette" class="damage-vignette" aria-hidden="true"></div>
+      </div>
+    </main>
+  </body>
+</html>
