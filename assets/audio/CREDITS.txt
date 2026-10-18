@@ -16,3 +16,10 @@ Original files: explosionCrunch_003.ogg, thrusterFire_000.ogg, forceField_001.og
 computerNoise_000.ogg, impactMetal_001.ogg. No modification to the source OGGs.
 
 Only these selected sounds ship. The original downloaded archives are not shipped.
+
+step-{concrete,wood,sand,metal}-{0..4}.ogg
+Kenney — Impact Sounds (1.0)
+Source: https://kenney.nl/assets/impact-sounds
+License: CC0 1.0 Universal — retained as Kenney-Impact-License.txt.
+Concrete/wood: footstep_concrete/wood_000..004. Sand/soil: footstep_grass_000..004 (granular ground foley placeholder). Metal: impactMetal_light_000..004 layered quietly over concrete soles.
+Original OGG data retained. Playback gain/pitch vary subtly; no synthesized pitched footstep tone.
