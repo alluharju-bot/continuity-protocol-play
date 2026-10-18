@@ -1,0 +1,18 @@
+CONTINUITY PROTOCOL — Audio sources / downloaded 2026-10-18
+
+pistol.wav, machinegun.wav, autocannon.wav
+The Free Firearm Sound Library — Ben Jaszczak, Brian Nelson, Kevin Heras, Matthew Nanney.
+Source: https://opengameart.org/content/the-free-firearm-sound-library
+License: CC0 1.0 Universal — https://creativecommons.org/publicdomain/zero/1.0/
+Originals: Prepared SFX Library/1911/A_34P.wav; AR-15/D_24P.wav; Mosin Nagant/M_21P.wav.
+Adaptation: one transient selected, mono 24 kHz/16-bit, level normalised and tail faded.
+The autocannon uses a pitched rifle transient for the prototype, not a recording of a 30 mm cannon.
+
+explosion.ogg, missile.ogg, emp.ogg, scan.ogg, impact.ogg
+Kenney — Sci-fi Sounds (1.0)
+Source: https://kenney.nl/assets/sci-fi-sounds
+License: CC0 1.0 Universal — original License.txt retained as Kenney-License.txt.
+Original files: explosionCrunch_003.ogg, thrusterFire_000.ogg, forceField_001.ogg,
+computerNoise_000.ogg, impactMetal_001.ogg. No modification to the source OGGs.
+
+Only these selected sounds ship. The original downloaded archives are not shipped.
