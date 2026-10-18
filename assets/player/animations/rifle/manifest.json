@@ -1,0 +1,306 @@
+{
+  "rig": "mixamorig",
+  "units": "meters",
+  "weaponFamilies": [
+    "rifle",
+    "shotgun",
+    "sniper"
+  ],
+  "loadPolicy": "on-demand when a two-handed weapon is implemented; not loaded at boot",
+  "clips": [
+    {
+      "id": "rifle-sprint-forward",
+      "source": "sprint forward.fbx",
+      "url": "player/animations/rifle/rifle-sprint-forward.glb",
+      "sha256": "47e236148255db5e82a15813d02740be661e3f80602a86d05a93684f50f0f16a"
+    },
+    {
+      "id": "rifle-run-forward",
+      "source": "run forward.fbx",
+      "url": "player/animations/rifle/rifle-run-forward.glb",
+      "sha256": "bd3a11687ff812471912fcea47737937325f34c0e575d539a348bf9f95655c8a"
+    },
+    {
+      "id": "rifle-walk-crouching-forward-right",
+      "source": "walk crouching forward right.fbx",
+      "url": "player/animations/rifle/rifle-walk-crouching-forward-right.glb",
+      "sha256": "0e7d2fdf352a5bda26454dd6510af312cd051979d0a765f1da884d5f66c19cda"
+    },
+    {
+      "id": "rifle-idle",
+      "source": "idle.fbx",
+      "url": "player/animations/rifle/rifle-idle.glb",
+      "sha256": "89296fd77d3b03a1ab8aeed1851dd0d5182f7b552db5dcfac95427bfd835310b"
+    },
+    {
+      "id": "rifle-turn-90-left",
+      "source": "turn 90 left.fbx",
+      "url": "player/animations/rifle/rifle-turn-90-left.glb",
+      "sha256": "3b450e6daf3fdae26ca8cdfff211ab73e2ae5cf4145cf76b1f3a7cfd7a4a42d3"
+    },
+    {
+      "id": "rifle-idle-crouching",
+      "source": "idle crouching.fbx",
+      "url": "player/animations/rifle/rifle-idle-crouching.glb",
+      "sha256": "1970126890ff0f55e7fdf90391b041b408177965fcf06c4f2b88ab6cd08eb189"
+    },
+    {
+      "id": "rifle-run-backward",
+      "source": "run backward.fbx",
+      "url": "player/animations/rifle/rifle-run-backward.glb",
+      "sha256": "267238262b9b429eeee4e8d8ac944070036328f794282bd0740965039c15f763"
+    },
+    {
+      "id": "rifle-run-left",
+      "source": "run left.fbx",
+      "url": "player/animations/rifle/rifle-run-left.glb",
+      "sha256": "58dfcbe250abf39d3938ace20c988f0f89a400b247bd2f3d2224b106e0d25ae7"
+    },
+    {
+      "id": "rifle-run-right",
+      "source": "run right.fbx",
+      "url": "player/animations/rifle/rifle-run-right.glb",
+      "sha256": "06d60a25ad512859e4327b937e5616d8d6ae2c486c616cf27bb80d0f8a31ec54"
+    },
+    {
+      "id": "rifle-run-forward-right",
+      "source": "run forward right.fbx",
+      "url": "player/animations/rifle/rifle-run-forward-right.glb",
+      "sha256": "aeedfe1af11268768830886f38de676e979495be86d2e963f18f0095a923a6a0"
+    },
+    {
+      "id": "rifle-run-forward-left",
+      "source": "run forward left.fbx",
+      "url": "player/animations/rifle/rifle-run-forward-left.glb",
+      "sha256": "c3a8be73754859a1555df45f77632f5295aeef50c945a5b553a77fe3a3b475b1"
+    },
+    {
+      "id": "rifle-run-backward-left",
+      "source": "run backward left.fbx",
+      "url": "player/animations/rifle/rifle-run-backward-left.glb",
+      "sha256": "0e82815b4a4d040ae24624197cf8e55b3c00855b468ad29dc365984d08ae91ac"
+    },
+    {
+      "id": "rifle-run-backward-right",
+      "source": "run backward right.fbx",
+      "url": "player/animations/rifle/rifle-run-backward-right.glb",
+      "sha256": "d0752f5ed78afacd0fe1dad8f1c91856c2368c522cb297f2220d922863ea34a1"
+    },
+    {
+      "id": "rifle-sprint-forward-right",
+      "source": "sprint forward right.fbx",
+      "url": "player/animations/rifle/rifle-sprint-forward-right.glb",
+      "sha256": "3beaa35400f8e8df04aca47e14841d9995b262ad79b1b729b39df8fedf21303d"
+    },
+    {
+      "id": "rifle-sprint-forward-left",
+      "source": "sprint forward left.fbx",
+      "url": "player/animations/rifle/rifle-sprint-forward-left.glb",
+      "sha256": "1f4c428eb03a8ede73be65bdcd9de40d3e088f357dd7baf16eac1bb971108826"
+    },
+    {
+      "id": "rifle-sprint-right",
+      "source": "sprint right.fbx",
+      "url": "player/animations/rifle/rifle-sprint-right.glb",
+      "sha256": "7de86b9c6af6910cda13bf2461454616ccdeffdb4c7d230da37eba8e80f25e05"
+    },
+    {
+      "id": "rifle-sprint-left",
+      "source": "sprint left.fbx",
+      "url": "player/animations/rifle/rifle-sprint-left.glb",
+      "sha256": "ea8129204e62f93bb74a942a8aebf891b009aacb4dac4bb4fb174e1d5613dcbe"
+    },
+    {
+      "id": "rifle-sprint-backward",
+      "source": "sprint backward.fbx",
+      "url": "player/animations/rifle/rifle-sprint-backward.glb",
+      "sha256": "b3a4dcf3e69a072a6e928dafa52579e48dd71b709a7452c6c4a6890c941522b1"
+    },
+    {
+      "id": "rifle-sprint-backward-right",
+      "source": "sprint backward right.fbx",
+      "url": "player/animations/rifle/rifle-sprint-backward-right.glb",
+      "sha256": "e371de60c50fac08a1f51e411b1edbc8018f54af327c36d6e414b631317e82b7"
+    },
+    {
+      "id": "rifle-sprint-backward-left",
+      "source": "sprint backward left.fbx",
+      "url": "player/animations/rifle/rifle-sprint-backward-left.glb",
+      "sha256": "ca0028008ccad8454ff955e848df40833f22d14c4c6291398b452ea206e5f8a7"
+    },
+    {
+      "id": "rifle-walk-forward",
+      "source": "walk forward.fbx",
+      "url": "player/animations/rifle/rifle-walk-forward.glb",
+      "sha256": "22de73d9adb473c4124b00666ac9f6a5aef4faec9a86d4252bda4ae5da4fef61"
+    },
+    {
+      "id": "rifle-walk-forward-right",
+      "source": "walk forward right.fbx",
+      "url": "player/animations/rifle/rifle-walk-forward-right.glb",
+      "sha256": "60acc0fc23779aa3a8081570f60217e8a359e0ecd3760fc5ffb7ab123e2ec9c4"
+    },
+    {
+      "id": "rifle-walk-forward-left",
+      "source": "walk forward left.fbx",
+      "url": "player/animations/rifle/rifle-walk-forward-left.glb",
+      "sha256": "f1d40165f4a556c891add1a19980d3a882ec3ceac96d7b4d8b58e3f467572ce9"
+    },
+    {
+      "id": "rifle-walk-right",
+      "source": "walk right.fbx",
+      "url": "player/animations/rifle/rifle-walk-right.glb",
+      "sha256": "c78419f94c4cc5b060af701ae72224617b07ea20bd95ac3f1c5b3096a9e9998c"
+    },
+    {
+      "id": "rifle-walk-left",
+      "source": "walk left.fbx",
+      "url": "player/animations/rifle/rifle-walk-left.glb",
+      "sha256": "7d7632a2b06531a9e8e7335a0d09b3b9532ecb3e38d7255d931ab0f6ef3b4369"
+    },
+    {
+      "id": "rifle-walk-backward",
+      "source": "walk backward.fbx",
+      "url": "player/animations/rifle/rifle-walk-backward.glb",
+      "sha256": "7f8e2156e60d2f9b7d6ee7e064da2b50c7ce6e53ff860dbe0d189b3b7a67204a"
+    },
+    {
+      "id": "rifle-walk-backward-right",
+      "source": "walk backward right.fbx",
+      "url": "player/animations/rifle/rifle-walk-backward-right.glb",
+      "sha256": "db5858a92eba7614502261bb2a6b5ad60523afa0f485e56b717ccd32f8d4cec4"
+    },
+    {
+      "id": "rifle-walk-backward-left",
+      "source": "walk backward left.fbx",
+      "url": "player/animations/rifle/rifle-walk-backward-left.glb",
+      "sha256": "df9381880fb9e36f46503dd8234ff37d778e5a5d9e480e60e902c52ae812c04d"
+    },
+    {
+      "id": "rifle-walk-crouching-forward",
+      "source": "walk crouching forward.fbx",
+      "url": "player/animations/rifle/rifle-walk-crouching-forward.glb",
+      "sha256": "f63e7469ca1eaa028f60c4cd8abf8e7a970b7c4cf4b29256f36e17ee32f7ae8d"
+    },
+    {
+      "id": "rifle-walk-crouching-right",
+      "source": "walk crouching right.fbx",
+      "url": "player/animations/rifle/rifle-walk-crouching-right.glb",
+      "sha256": "c44fa2bc923d51c5023604355512947b21f7c7cff0ba69b9d20a820873d870a0"
+    },
+    {
+      "id": "rifle-walk-crouching-left",
+      "source": "walk crouching left.fbx",
+      "url": "player/animations/rifle/rifle-walk-crouching-left.glb",
+      "sha256": "99aa957f1dd20f52baeea413908f2e15dd95e4d254b354b083c293df7fda19d5"
+    },
+    {
+      "id": "rifle-walk-crouching-forward-left",
+      "source": "walk crouching forward left.fbx",
+      "url": "player/animations/rifle/rifle-walk-crouching-forward-left.glb",
+      "sha256": "8dfb6dff624b3a13afc58d69ba079632931f53933cda8c22e965380265ddd62a"
+    },
+    {
+      "id": "rifle-walk-crouching-backward",
+      "source": "walk crouching backward.fbx",
+      "url": "player/animations/rifle/rifle-walk-crouching-backward.glb",
+      "sha256": "cbfb6f192fd595e5a429a80bafe21b80e4f6a1846e0d23265c883d2934fc9bf0"
+    },
+    {
+      "id": "rifle-walk-crouching-backward-left",
+      "source": "walk crouching backward left.fbx",
+      "url": "player/animations/rifle/rifle-walk-crouching-backward-left.glb",
+      "sha256": "23f81c89286149c9a98946b8904a7607b44f040d4f542d71474ad08aaebc1f3e"
+    },
+    {
+      "id": "rifle-walk-crouching-backward-right",
+      "source": "walk crouching backward right.fbx",
+      "url": "player/animations/rifle/rifle-walk-crouching-backward-right.glb",
+      "sha256": "35eeaa5b9286fba3eb1c151f7c555eedab394492b0b56f07726ad0ed9345eaf5"
+    },
+    {
+      "id": "rifle-idle-aiming",
+      "source": "idle aiming.fbx",
+      "url": "player/animations/rifle/rifle-idle-aiming.glb",
+      "sha256": "857cab6f010d1599c8af7dbd9ae2f66b68361bb6ec8897750754766327949fbd"
+    },
+    {
+      "id": "rifle-turn-90-right",
+      "source": "turn 90 right.fbx",
+      "url": "player/animations/rifle/rifle-turn-90-right.glb",
+      "sha256": "1df1d3cadc9eeb796ae2eb0ca12ce5b0e4a289cbb284b5d6482b7bdd1972de5e"
+    },
+    {
+      "id": "rifle-crouching-turn-90-left",
+      "source": "crouching turn 90 left.fbx",
+      "url": "player/animations/rifle/rifle-crouching-turn-90-left.glb",
+      "sha256": "72bc4ff5ac15d440f674f85ef65e379e2a7581e9c375ad2cf7bbb6873cd97d50"
+    },
+    {
+      "id": "rifle-crouching-turn-90-right",
+      "source": "crouching turn 90 right.fbx",
+      "url": "player/animations/rifle/rifle-crouching-turn-90-right.glb",
+      "sha256": "41debb0047508f10943796945aad49eac98d558191895bb50c37031afb843b20"
+    },
+    {
+      "id": "rifle-jump-up",
+      "source": "jump up.fbx",
+      "url": "player/animations/rifle/rifle-jump-up.glb",
+      "sha256": "51bb69624105c64b0451f880dc9ca00f4692b82abcc279ccbad34e9abfdbca15"
+    },
+    {
+      "id": "rifle-jump-loop",
+      "source": "jump loop.fbx",
+      "url": "player/animations/rifle/rifle-jump-loop.glb",
+      "sha256": "c027ac97a938700e3a90d5b8f6d6931c88762c8b5ff0484c18d18f59da28be72"
+    },
+    {
+      "id": "rifle-jump-down",
+      "source": "jump down.fbx",
+      "url": "player/animations/rifle/rifle-jump-down.glb",
+      "sha256": "154e00007f3f8f7dad9f87e348a4eb5c622c5ff782b3dd518b8e75c255c6ef96"
+    },
+    {
+      "id": "rifle-death-from-front-headshot",
+      "source": "death from front headshot.fbx",
+      "url": "player/animations/rifle/rifle-death-from-front-headshot.glb",
+      "sha256": "86f5d48551541bb8f50ee137e48b2d712123801621cc54904a33d2b21677db6a"
+    },
+    {
+      "id": "rifle-death-from-right",
+      "source": "death from right.fbx",
+      "url": "player/animations/rifle/rifle-death-from-right.glb",
+      "sha256": "d5d37a68d9445bc34df3b099476d33a87a37d79f7f337075fc1c9decc4465010"
+    },
+    {
+      "id": "rifle-death-crouching-headshot-front",
+      "source": "death crouching headshot front.fbx",
+      "url": "player/animations/rifle/rifle-death-crouching-headshot-front.glb",
+      "sha256": "14aa0e243278f7ef4369ed63c388fa742ec5c6c011280a1a74d0a1d8ff51192f"
+    },
+    {
+      "id": "rifle-death-from-back-headshot",
+      "source": "death from back headshot.fbx",
+      "url": "player/animations/rifle/rifle-death-from-back-headshot.glb",
+      "sha256": "b2eb95f6a76f41a2e6f0b65d171a18b707349e24332056e0d6b857b460b62b66"
+    },
+    {
+      "id": "rifle-death-from-the-back",
+      "source": "death from the back.fbx",
+      "url": "player/animations/rifle/rifle-death-from-the-back.glb",
+      "sha256": "2f6d5ef5af5e9c1ac1a172a61802415fb55352b533eccf5b19e1b57f84aa878b"
+    },
+    {
+      "id": "rifle-death-from-the-front",
+      "source": "death from the front.fbx",
+      "url": "player/animations/rifle/rifle-death-from-the-front.glb",
+      "sha256": "eddfb0a7c175b4a71c235729c2e9debf73f513195b4f5cf131cfd7dce0feb79d"
+    },
+    {
+      "id": "rifle-idle-crouching-aiming",
+      "source": "idle crouching aiming.fbx",
+      "url": "player/animations/rifle/rifle-idle-crouching-aiming.glb",
+      "sha256": "14d2300828205267d5af3994eef0f90b8c62a361b3d4e9aabee9c8e290815c5d"
+    }
+  ]
+}

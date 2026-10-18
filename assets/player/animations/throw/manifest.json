@@ -1,0 +1,44 @@
+{
+  "clips": [
+    {
+      "name": "goalie-throw",
+      "source": "source-assets/player/animations/throw/goalie-throw.fbx",
+      "sha256": "5a52013f0a3624835d83d3c6fa12f9399c5d4059ed550903e3ba4423951dcc6e",
+      "runtime": "player/animations/throw/goalie-throw.glb",
+      "loaded": true
+    },
+    {
+      "name": "rifle-throw-run",
+      "source": "source-assets/player/animations/throw/rifle-throw-run.fbx",
+      "sha256": "86ec5b964fdb7eda3098b0a806a590d9f2a6ce95d824b2150b7f9246ceef5dde",
+      "runtime": "player/animations/throw/rifle-throw-run.glb",
+      "loaded": false
+    },
+    {
+      "name": "rifle-throw-stationary-low",
+      "source": "source-assets/player/animations/throw/rifle-throw-stationary-low.fbx",
+      "sha256": "f7f61afae8fd0ff32f927b8fe1d0360a66690a236296775a1f393b8a24eb045b",
+      "runtime": "player/animations/throw/rifle-throw-stationary-low.glb",
+      "loaded": false
+    },
+    {
+      "name": "rifle-throw-walk",
+      "source": "source-assets/player/animations/throw/rifle-throw-walk.fbx",
+      "sha256": "2a81a5978e92e938539d048e760b6c444ecaa0ed3238aeed41367618658d7d45",
+      "runtime": "player/animations/throw/rifle-throw-walk.glb",
+      "loaded": false
+    },
+    {
+      "name": "throw-object",
+      "source": "source-assets/player/animations/throw/throw-object.fbx",
+      "sha256": "5e989e08dbf91f7670338f65d34256cc4686531201579e6803595581420e8e6b",
+      "runtime": "player/animations/throw/throw-object.glb",
+      "loaded": true
+    }
+  ],
+  "notes": [
+    "Rifle stationary source is a low/crouched stance. Do not retarget it as upright idle.",
+    "Runtime gameplay strips planar root motion; fuse time is independent of the pose timeline.",
+    "FBX armature centimetres and root axis conversion are baked by scripts/convert-player-animations.py."
+  ]
+}
